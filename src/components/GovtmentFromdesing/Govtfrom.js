@@ -44,84 +44,13 @@ const Govtfrom = () => {
        
        </div>
 </div> 
-<div className='inputBox'>
-<Form.Group className="mb-3 formbox"  >
-  <Form.Label className='fromlavel'>applicat's Name<span className='starticon'>*</span></Form.Label>
- <Form.Control   
-              {...register("name", { required: true })}
-              type="text"
-              placeholder="Enter name"
-              className={errors.name ? "from-control is-invalid" : "from control"}
-            />
-</Form.Group>
- <div className="errosMassege">
- {errors.name?.type === "required" && (
-  <p className="text-danger" role="alert">
-    First name is required
-  </p>
-)}
- 
- </div>
-</div> 
-<div className='inputBox'>
-<Form.Group className="mb-3 formbox"  >
-  <Form.Label className='fromlavel'>applicat's Name<span className='starticon'>*</span></Form.Label>
- <Form.Control   
-              {...register("name", { required: true })}
-              type="text"
-              placeholder="Enter name"
-              className={errors.name ? "from-control is-invalid" : "from control"}
-            />
-</Form.Group>
- <div className="errosMassege">
- {errors.name?.type === "required" && (
-  <p className="text-danger" role="alert">
-    First name is required
-  </p>
-)}
- 
- </div>
-</div> 
-<div className='inputBox'>
-<Form.Group className="mb-3 formbox"  >
-  <Form.Label className='fromlavel'>applicat's Name<span className='starticon'>*</span></Form.Label>
- <Form.Control   
-              {...register("name", { required: true })}
-              type="text"
-              placeholder="Enter name"
-              className={errors.name ? "from-control is-invalid" : "from control"}
-            />
-</Form.Group>
- <div className="errosMassege">
- {errors.name?.type === "required" && (
-  <p className="text-danger" role="alert">
-    First name is required
-  </p>
-)}
- 
- </div>
-</div> 
-<div className='inputBox'>
-<Form.Group className="mb-3 formbox"  >
-  <Form.Label className='fromlavel'>applicat's Name<span className='starticon'>*</span></Form.Label>
- <Form.Control   
-              {...register("name", { required: true })}
-              type="text"
-              placeholder="Enter name"
-              className={errors.name ? "from-control is-invalid" : "from control"}
-            />
-</Form.Group>
- <div className="errosMassege">
- {errors.name?.type === "required" && (
-  <p className="text-danger" role="alert">
-    First name is required
-  </p>
-)}
- 
- </div>
-</div> 
+    
+      <Form.Group className="mb-3 formbox"  >
+      <Form.Label className='fromlavel'>Applicant's Name (Bangla)<span className='starticon'>*</span></Form.Label>
 
+      <Form.Control type="text" placeholder="Enter email" className='fromfastInput' />
        
+    </Form.Group>
 
 
     <Button variant="primary" type="submit">
