@@ -25,7 +25,7 @@ const Govtfrom = () => {
  
 <div className='fromcontent'>
 <form onSubmit={handleSubmit(onSubmit)}>
-         <div className='inputBox'>
+  <div className='inputBox'>
       <Form.Group className="mb-3 formbox"  >
         <Form.Label className='fromlavel'>applicat's Name<span className='starticon'>*</span></Form.Label>
        <Form.Control   
@@ -44,13 +44,28 @@ const Govtfrom = () => {
        
        </div>
 </div> 
-    
-      <Form.Group className="mb-3 formbox"  >
-      <Form.Label className='fromlavel'>Applicant's Name (Bangla)<span className='starticon'>*</span></Form.Label>
 
-      <Form.Control type="text" placeholder="Enter email" className='fromfastInput' />
+<div className='inputBox'>
+<Form.Group className="mb-3 formbox"  >
+  <Form.Label className='fromlavel'>Father Name<span className='starticon'>*</span></Form.Label>
+ <Form.Control   
+              {...register("fname", { required: true })}
+              type="text"
+              placeholder="Enter name"
+              className={errors.name ? "from-control is-invalid" : "from control"}
+            />
+</Form.Group>
+ <div className="errosMassege">
+ {errors.fname?.type === "required" && (
+  <p className="text-danger" role="alert">
+  fname name is required
+  </p>
+)}
+ 
+ </div>
+</div> 
+    
        
-    </Form.Group>
 
 
     <Button variant="primary" type="submit">
