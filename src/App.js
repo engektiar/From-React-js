@@ -1,10 +1,10 @@
 import React from "react";
-import Formik from "./components/Formik/Formik";
+import FormValidation from "./components/Formik/formValidationFormik/FormValidation";
 
 const App = () => {
   return (
     <div>
-      <Formik />
+      <FormValidation />
     </div>
   );
 };
