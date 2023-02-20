@@ -1,52 +1,49 @@
-.fromMain{
-  margin:0  auto;
+.callthers {
+  background: gold;
+}
+
+.fromMain {
+  margin: 0 auto;
   height: auto;
   width: 100%;
   background: rgb(246, 240, 240);
-  padding:40px ;
+  padding: 40px;
 }
- .fromStart{
-  margin:0  auto;
+.fromStart {
+  margin: 0 auto;
   height: 100vh;
   width: 1000px;
   background: #ffff;
   padding: 10px;
   border: 1px solid green;
- 
- }
-.inputBox{
- 
+}
+.inputBox {
   height: 70px;
 }
- .fromlavel{
+.fromlavel {
   width: 300px;
   display: flex;
   justify-content: left;
   align-items: center;
-   padding-left: 10px;
-   font-size: 16px;
-   text-transform:capitalize
-   ;
- }
- .starticon{
+  padding-left: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.starticon {
   color: red;
   font-size: 18px;
- }
+}
 
- .formbox{
+.formbox {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
-  
- }
-  .errosMassege{
-    margin-left: 230px;
-    margin-top: -15px;
-    
-  }
-  
- .fromcontent{
+}
+.errosMassege {
+  margin-left: 230px;
+  margin-top: -15px;
+}
+
+.fromcontent {
   padding: 30px;
- }
- 
+}
